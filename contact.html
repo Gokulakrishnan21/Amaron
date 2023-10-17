@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amaron | Contact</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.min.css" />
+    <link rel="stylesheet" href="./js/jquery-ui/jquery-ui.theme.min.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+  </head>
+
+  <body>
+    <main>
+      <section class="head-section">
+        <header>
+          <!-- tel & social -->
+          <section class="header-icon m-none">
+            <ul class="info r-float">
+              <li>
+                <i class="fa fa-envelope" aria-hidden="true"></i
+                ><a href="">customercare@amararaja.com</a>
+              </li>
+              <li class="tel-icon">
+                <i class="fa fa-phone" aria-hidden="true"></i
+                ><a href="">1800-425-4848</a>
+              </li>
+              <li>Follow us :</li>
+              <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+              <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+              <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+            </ul>
+          </section>
+          <!-- Logo & Input -->
+          <button class="fa fa-bars hamburger d-none m-show"></button>
+          <section class="hamburger-menu d-none m-show">
+            <button class="hamburger-close-btn">&Cross;</button>
+            <section class="hamburger-login">
+              <section class="hamburger-login-icon">
+                <img src="./images/user.png" alt="" />
+              </section>
+              <section class="hamburger-login-text">
+                <p>Hello, <span>Login/SignIn</span></p>
+              </section>
+            </section>
+            <section class="hamburger-accordian-container">
+              <section id="ham-accordion">
+                <h3 class="hamburger-text">ABOUT</h3>
+                <div>
+                  <ul class="hamburger-accordion-list">
+                    <li><a href="">Amara Raja</a></li>
+                    <li><a href="">Management</a></li>
+                    <li><a href="">AfterMarket</a></li>
+                    <li><a href="">OEM</a></li>
+                    <li><a href="">International Operations</a></li>
+                    <li><a href="">Manufacturing</a></li>
+                  </ul>
+                </div>
+                <h3 class="hamburger-text">PRODUCTS & SOLUTIONS</h3>
+                <div>
+                  <ul class="hamburger-accordion-list">
+                    <li><a href="">Two Wheelers</a></li>
+                    <li><a href="">Three Wheelers</a></li>
+                    <li><a href="">Passenger Vehicles</a></li>
+                    <li><a href="">Commercial Vehicles</a></li>
+                    <li><a href="">Farm Vehicles</a></li>
+                    <li><a href="">Earth Moving Equipment</a></li>
+                    <li><a href="">Genset</a></li>
+                    <li><a href="">E-Rickshaw</a></li>
+                    <li><a href="">Inverter And Batteries</a></li>
+                  </ul>
+                </div>
+                <h3 class="hamburger-text">SERVICE</h3>
+                <div>
+                  <ul class="hamburger-accordion-list">
+                    <li><a href="">AMCARE</a></li>
+                    <li><a href="">AMARON KONNEKT</a></li>
+                    <li><a href="">Tips for Buying Battery</a></li>
+                    <li><a href="">Battery Safety Guidelines</a></li>
+                    <li><a href="">Terminology</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Battery Recycling</a></li>
+                  </ul>
+                </div>
+                <h3 class="hamburger-text">AMARON EXPERIENCE</h3>
+                <div>
+                  <ul class="hamburger-accordion-list">
+                    <li><a href="">About Amaron</a></li>
+                    <li><a href="">Media</a></li>
+                    <li><a href="">Ad Gallery</a></li>
+                    <li><a href="">Fun Facts</a></li>
+                    <li><a href="">AMARON Logo</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">PITSTOP LOCATOR</a></li>
+                    <li><a href="">Amaron Pitstop</a></li>
+                  </ul>
+                </div>
+                <h3 class="hamburger-text">PITSTOP LOCATOR</h3>
+                <div>
+                  <ul class="hamburger-accordion-list">
+                    <li><a href="">Amaron Pitstop</a></li>
+                  </ul>
+                </div>
+                <h3 class="hamburger-text">OTHERS</h3>
+                <div>
+                  <ul class="hamburger-accordion-list">
+                    <li><a href="">AMCARE</a></li>
+                    <li><a href="">AMARON KONNEKT</a></li>
+                    <li><a href="">Tips for Buying Battery</a></li>
+                    <li><a href="">Battery Safety Guidelines</a></li>
+                    <li><a href="">Terminology</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Battery Recycling</a></li>
+                  </ul>
+                </div>
+              </section>
+            </section>
+          </section>
+
+          <section class="amaron-header clear-float">
+            <img class="amron-image" src="./images/Amaron_Logo_0.jpg" alt=""
+            />
+            <section class="search-input m-none">
+              <input
+                class="amaron-input"
+                type="text"
+                placeholder="search for products,vehicle,battery ..."
+              />
+              <i class="fa fa-search"></i>
+            </section>
+            <!-- cart -->
+            <section class="cart-content">
+              <img class="cart" src="./images/cart.png" alt="" />
+              <i class="fa fa-circle m-none" aria-hidden="true"></i>
+            </section>
+
+            <!-- login/signup -->
+            <section class="login m-none">
+              <img src="./images/user.png" alt="" />
+              <a href="">Login/Signup</a>
+            </section>
+          </section>
+          <!-- mobile-input -->
+          <section class="search-input m-show d-none">
+            <input
+              class="amaron-input"
+              type="text"
+              placeholder="search for products,vehicle,battery ..."
+            />
+            <i class="fa fa-search"></i>
+          </section>
+          <!-- Nav -->
+          <section class="navigation clear-float m-none">
+            <ul class="underline-effect">
+              <li class="drop-down">
+                ABOUT <i class="arrow down"></i>
+                <ul class="sub-menu">
+                  <li><a href="">Amara Raja</a></li>
+                  <li><a href="">Amara Raja Batteries Ltd</a></li>
+                  <li><a href="">Management</a></li>
+                  <li><a href="">AfterMarket</a></li>
+                  <li><a href="">OEM</a></li>
+                  <li><a href="">International Operations</a></li>
+                  <li><a href="">Manufacturing</a></li>
+                </ul>
+              </li>
+              <li class="drop-down">
+                PRODUCTS & SOLUTIONS <i class="arrow down"> </i>
+                <ul class="sub-menu">
+                  <li><a href="">Two Wheelers</a></li>
+                  <li><a href="">Three Wheelers</a></li>
+                  <li><a href="">Passenger Vehicles</a></li>
+                  <li><a href="">Commercial Vehicles</a></li>
+                  <li><a href="">Farm Vehicles</a></li>
+                  <li><a href="">Earth Moving Equipment</a></li>
+                  <li><a href="">Genset</a></li>
+                  <li><a href="">Inverter And Batteries</a></li>
+                  <li><a href="">E-Rickshaw</a></li>
+                  <li><a href="">Choose Your Battery</a></li>
+                </ul>
+              </li>
+              <li class="drop-down">
+                SERVICE <i class="arrow down"></i>
+                <ul class="sub-menu">
+                  <li><a href="">AMCARE</a></li>
+                  <li><a href="">AMARON KONNEKT</a></li>
+                  <li><a href="">Tips for Buying Battery</a></li>
+                  <li><a href="">Battery Safety Guidelines</a></li>
+                  <li><a href="">Terminology</a></li>
+                  <li><a href="">FAQs</a></li>
+                  <li><a href="">Battery Recycling</a></li>
+                </ul>
+              </li>
+              <li class="drop-down">
+                AMARON EXPERIENCE <i class="arrow down"></i>
+                <ul class="sub-menu">
+                  <li><a href="">About Amaron</a></li>
+                  <li><a href="">Media</a></li>
+                  <li><a href="">Ad Gallery</a></li>
+                  <li><a href="">Fun Facts</a></li>
+                  <li><a href="">AMARON Logo</a></li>
+                  <li><a href="">Events</a></li>
+                  <li><a href="">Blogs</a></li>
+                </ul>
+              </li>
+              <li>PITSTOP LOCATOR</li>
+              <li><a href="">CONTACT</a></li>
+            </ul>
+          </section>
+        </header>
+      </section>
+
+      <!--  -->
+      <section class="banner-section">
+        <section class="banner-container">
+            <p class="mobile-contact-text m-show d-none"><b>Contact</b> Us</p>
+          <section class="banner-img-container">
+            <img src="./images/contactUs-banner.jpg" alt="" />
+          </section>
+        
+          <section class="text-card-container m-none">
+            <p class="bold-heading-text"><b>Contact Us </b></p>
+            <p class="banner-desc">
+              We are eager to listen and resolve your queries related with our
+              products and services.
+            </p>
+          </section>
+        </section>
+      </section>
+      <!-- branch office container -->
+      <section class="branch-office-section">
+        <section class="branch-office-container">
+          <section class="branch-text-container">
+            <p class="m-none">HOME</p>
+            <p class="m-none">&gt;</p>
+            <p class="m-none">CONTACT</p>
+          </section>
+          <section class="branch-office-dropdown-section">
+            <p class="branch-office-text">BRANCH OFFICE</p>
+            <section class="drop-down-section">
+              <label for="branch-location" class="branch-location-text"
+                >SELECT CITY</label
+              >
+              <select name="branch-location" id="branch-location"></select>
+            </section>
+          </section>
+        </section>
+      </section>
+
+      <!-- drop us a line section -->
+
+      <section class="main-section">
+        <section class="main-container">
+          <section class="form-and-text-container child">
+            <section class="drop-us-text-section">
+              <p class="head-text">DROP US A <strong>LINE</strong></p>
+              <p class="drop-desc">
+                <b>Comments? </b><b>Queries? </b><b>Compliments? </b
+                ><b>Concerns? </b>If you have anything to share or suggestions
+                for improvements, please don't hesitate to let usknow.
+              </p>
+            </section>
+
+            <!-- form section -->
+            <section class="form-section">
+              <section class="from-container">
+                <section class="radio-button-section">
+                  <label for="sales"
+                    ><input
+                      type="radio"
+                      name="form"
+                      id="sales"
+                      value="salesForm"
+                      checked
+                    />Sales</label
+                  >
+                  <label for="service"
+                    ><input
+                      type="radio"
+                      name="form"
+                      id="service"
+                      value="servicesForm"
+                    />Services</label
+                  >
+                  <label for="channel"
+                    ><input
+                      type="radio"
+                      name="form"
+                      id="channel"
+                      value="channelPartnerForm"
+                    />Become a Channel Partner</label
+                  >
+                  <label for="others"
+                    ><input
+                      type="radio"
+                      name="form"
+                      id="others"
+                      value="othersForm"
+                    />Others</label
+                  >
+                </section>
+                <section class="form-element-container">
+                  <!-- sales form -->
+                  <section class="salesForm box">
+                    <form id="sales-form-elements" action="">
+                      <section class="input-container">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="query"
+                          placeholder="Query Type"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" name="Name" placeholder="Name" />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="country"
+                          class="country"
+                          placeholder="Select Country"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-flag-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="state"
+                          class="state"
+                          placeholder="Select state"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-building" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="city"
+                          class="city"
+                          placeholder="Select City"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="locality"
+                          placeholder="Select Locality"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="pincode"
+                          placeholder="Select Pincode"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="Number"
+                          placeholder="(+91) Phone Number"
+                        />
+                      </section>
+
+                      <section class="input-container">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                        <input type="text" name="otp" placeholder="Enter OTP" />
+                        <p>Get OTP Validate OTP</p>
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <input type="text" name="email" placeholder="Email" />
+                      </section>
+                      <button>SUBMIT</button>
+                    </form>
+                  </section>
+
+                  <!-- services form -->
+
+                  <section class="servicesForm box">
+                    <form id="service-form-elements" action="">
+                      <section class="input-container">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="query"
+                          placeholder="Query Type"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="subQuery"
+                          placeholder="Sub Query Type"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" name="Name" placeholder="Name" />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="country"
+                          class="country"
+                          placeholder="Select Country"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-flag-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          nam="state"
+                          class="state"
+                          placeholder="Select state"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-building" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="city"
+                          class="city"
+                          placeholder="Select City"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="locality"
+                          placeholder="Select Locality"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="pincode"
+                          placeholder="Select Pincode"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="Number"
+                          placeholder="(+91) Phone Number"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                        <input type="text" name="otp" placeholder="Enter OTP" />
+                        <p>Get OTP Validate OTP</p>
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <input type="text" name="email" placeholder="Email" />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          placeholder="Enter Service Call Reference Number"
+                          name="ReferenceNumber"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          placeholder="Enter Product Serial Number"
+                          name="serialNumber"
+                        />
+                      </section>
+                      <section class="input-container service-file-upload">
+                        <section class="file-section child-1">
+                          <input type="file" id="file" name="file" />
+                        </section>
+                        <button class="child-1">upload</button>
+                      </section>
+
+                      <button type="submit">SUBMIT</button>
+                    </form>
+                  </section>
+
+                  <!-- channel partner -->
+
+                  <section class="channelForm box">
+                    <form id="channel-form-elements" action="">
+                      <section class="input-container">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="query"
+                          placeholder="Query Type"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" name="Name" placeholder="Name" />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="country"
+                          class="country"
+                          placeholder="Select Country"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-flag-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="State"
+                          class="state"
+                          placeholder="Select state"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-building" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="city"
+                          class="city"
+                          placeholder="Select City"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="locality"
+                          placeholder="Select Locality"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="pincode"
+                          placeholder="Select Pincode"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="Number"
+                          placeholder="(+91) Phone Number"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                        <input type="text" name="otp" placeholder="Enter OTP" />
+                        <p>Get OTP Validate OTP</p>
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <input type="text" name="email" placeholder="Email" />
+                      </section>
+                      <button>SUBMIT</button>
+                    </form>
+                  </section>
+
+                  <!-- others -->
+
+                  <section class="othersForm box">
+                    <form id="others-form-elements" action="">
+                      <section class="input-container">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="query"
+                          placeholder="Query Type"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" name="Name" placeholder="Name" />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="country"
+                          class="country"
+                          placeholder="Select Country"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-flag-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="State"
+                          class="state"
+                          placeholder="Select state"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-building" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="city"
+                          class="city"
+                          placeholder="Select City"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="locality"
+                          placeholder="Select Locality"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="pincode"
+                          placeholder="Select Pincode"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input
+                          type="text"
+                          name="Number"
+                          placeholder="(+91) Phone Number"
+                        />
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-comments-o" aria-hidden="true"></i>
+                        <input type="text" name="otp" placeholder="Enter OTP" />
+                        <p>Get OTP Validate OTP</p>
+                      </section>
+                      <section class="input-container">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <input type="text" name="email" placeholder="Email" />
+                      </section>
+                      <button>SUBMIT</button>
+                    </form>
+                  </section>
+                </section>
+              </section>
+            </section>
+          </section>
+
+          <!-- right side container -->
+
+          <section class="right-section child">
+            <section class="right-container">
+              <p class="head-text">FIND OUR <strong>OFFICES</strong></p>
+              <p class="small-text">You can contact us at:</p>
+              <p class="light-text">Corporate Office</p>
+              <p class="bold-text">Amara Raja Batteries Limited</p>
+              <p class="add-text">TERMINAL A</p>
+              <p class="add-text">
+                1-18/1/AMR/NR, Nanakramguda Gachilbowli, Hyderabad - 500032.
+              </p>
+              <p class="add-text india">India.</p>
+              <p class="phone-no">
+                <i class="fa fa-phone" aria-hidden="true"></i> 1800 425 4848
+                (Toll Free Number, India)
+              </p>
+              <p class="mail-section">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                mktgabd@amararaja.com
+              </p>
+            </section>
+          </section>
+        </section>
+      </section>
+
+      <!-- footer -->
+      <footer>
+        <section class="footer-icon-mobile-section d-none m-show">
+          <section class="footer-icon-section-mobile-container d-none m-show">
+            <section class="footer-amaron-mobile-image-container">
+              <img src="./images/amaron_footer.png" alt="" />
+            </section>
+            <section class="footer-amaron-mobile-image-2-container">
+              <img src="./images/amara-logo@2x.png" alt="" />
+            </section>
+          </section>
+        </section>
+        <section class="footer-icon-section m-none">
+          <section class="footer-icon-section-container">
+            <section class="footer-icon-section-child-1">
+              <section class="footer-amaron-image">
+                <img src="./images/amaron_footer.png" alt="" />
+              </section>
+              <section class="footer-social-icons">
+                <img src="./images/twitter.png" alt="" />
+                <img src="./images/linkedin.png" alt="" />
+                <img src="./images/facebook.png" alt="" />
+                <img src="./images/insta.png" alt="" />
+                <img src="./images/Youtube-icon.png" alt="" />
+              </section>
+            </section>
+            <section class="footer-icon-section-child-2">
+              <section class="customer-care-section-container">
+                <section class="customer-care-section">
+                  <section class="customer-care-section-image-container">
+                    <img src="./images/headphones.png" alt="" />
+                  </section>
+                  <section class="customer-care-section-text-container">
+                    <p class="care-text-1">24X7 CARE</p>
+                    <p class="care-text-2">
+                      <b>1800 425 4848 </b
+                      ><span>(Toll Free Number, India)</span>
+                    </p>
+                    <p class="care-text-3">customercare@amararaja.com</p>
+                  </section>
+                </section>
+              </section>
+              <section class="pitStop-section">
+                <section class="pitStop-container">
+                  <section class="pitStop-image">
+                    <img src="./images/pitstop.png" alt="" />
+                  </section>
+                  <section class="pitStop-text">
+                    <p class="pitStop-text-1">WANT TO PURCHASE?</p>
+                    <p class="pitStop-text-2">Locate PITSTOP</p>
+                  </section>
+                </section>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section class="footer-mobile-social-section d-none m-show">
+          <section class="follow-us">
+            <p class="follow-us-text">Follow Us :</p>
+            <section class="mobile-social-icon">
+              <img src="./images/twitter.png" alt="" />
+              <img src="./images/linkedin.png" alt="" />
+              <img src="./images/facebook.png" alt="" />
+              <img src="./images/insta.png" alt="" />
+              <img src="./images/Youtube-icon.png" alt="" />
+            </section>
+          </section>
+          <section class="footer-mobile-table-section">
+            <section class="footer-mobile-table-container">
+              <section class="mobile-care">
+                <img src="./images/headphones.png" alt="" />
+                <p>24X7 CARE</p>
+              </section>
+              <section class="mobile-toll-customer-conatiner">
+                <section class="mobile-customer-toll-section">
+                  <section class="mobile-toll-text">
+                    <b>1800 425 4848 </b>
+                    <p>(Toll Free Number, India)</p>
+                  </section>
+                  <section class="mobile-customer-text">
+                    <p>customercare@amararaja.com</p>
+                  </section>
+                </section>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section class="footer-accordian-section d-none m-show">
+          <section id="accordion">
+            <h3 class="accordion-text">ABOUT</h3>
+            <div>
+              <ul class="footer-accordion-list">
+                <li><a href="">Amara Raja</a></li>
+                <li><a href="">Management</a></li>
+                <li><a href="">AfterMarket</a></li>
+                <li><a href="">OEM</a></li>
+                <li><a href="">International Operations</a></li>
+                <li><a href="">Manufacturing</a></li>
+              </ul>
+            </div>
+            <h3 class="accordion-text">PRODUCTS & SOLUTIONS</h3>
+            <div>
+              <ul class="footer-accordion-list">
+                <li><a href="">Two Wheelers</a></li>
+                <li><a href="">Three Wheelers</a></li>
+                <li><a href="">Passenger Vehicles</a></li>
+                <li><a href="">Commercial Vehicles</a></li>
+                <li><a href="">Farm Vehicles</a></li>
+                <li><a href="">Earth Moving Equipment</a></li>
+                <li><a href="">Genset</a></li>
+                <li><a href="">E-Rickshaw</a></li>
+                <li><a href="">Inverter And Batteries</a></li>
+              </ul>
+            </div>
+            <h3 class="accordion-text">SERVICE</h3>
+            <div>
+              <ul class="footer-accordion-list">
+                <li><a href="">AMCARE</a></li>
+                <li><a href="">AMARON KONNEKT</a></li>
+                <li><a href="">Tips for Buying Battery</a></li>
+                <li><a href="">Battery Safety Guidelines</a></li>
+                <li><a href="">Terminology</a></li>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Battery Recycling</a></li>
+              </ul>
+            </div>
+            <h3 class="accordion-text">AMARON EXPERIENCE</h3>
+            <div>
+              <ul class="footer-accordion-list">
+                <li><a href="">About Amaron</a></li>
+                <li><a href="">Media</a></li>
+                <li><a href="">Ad Gallery</a></li>
+                <li><a href="">Fun Facts</a></li>
+                <li><a href="">AMARON Logo</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">PITSTOP LOCATOR</a></li>
+                <li><a href="">Amaron Pitstop</a></li>
+              </ul>
+            </div>
+            <h3 class="accordion-text">PITSTOP LOCATOR</h3>
+            <div>
+              <ul class="footer-accordion-list">
+                <li><a href="">Amaron Pitstop</a></li>
+              </ul>
+            </div>
+            <h3 class="accordion-text">OTHERS</h3>
+            <div>
+              <ul class="footer-accordion-list">
+                <li><a href="">AMCARE</a></li>
+                <li><a href="">AMARON KONNEKT</a></li>
+                <li><a href="">Tips for Buying Battery</a></li>
+                <li><a href="">Battery Safety Guidelines</a></li>
+                <li><a href="">Terminology</a></li>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Battery Recycling</a></li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section class="footer-list-section m-none">
+          <section class="footer-list-container">
+            <section class="footer-list-child">
+              <p class="footer-list-head">ABOUT</p>
+              <ul class="footer-list-content">
+                <li><a href="">Amara Raja</a></li>
+                <li><a href="">Management</a></li>
+                <li><a href="">AfterMarket</a></li>
+                <li><a href="">OEM</a></li>
+                <li><a href="">International Operations</a></li>
+                <li><a href="">Manufacturing</a></li>
+              </ul>
+            </section>
+            <section class="footer-list-child">
+              <p class="footer-list-head">PRODUCTS & SOLUTIONS</p>
+              <ul class="footer-list-content">
+                <li><a href="">Two Wheelers</a></li>
+                <li><a href="">Three Wheelers</a></li>
+                <li><a href="">Passenger Vehicles</a></li>
+                <li><a href="">Commercial Vehicles</a></li>
+                <li><a href="">Farm Vehicles</a></li>
+                <li><a href="">Earth Moving Equipment</a></li>
+                <li><a href="">Genset</a></li>
+                <li><a href="">E-Rickshaw</a></li>
+                <li><a href="">Inverter And Batteries</a></li>
+              </ul>
+            </section>
+            <section class="footer-list-child">
+              <p class="footer-list-head">SERVICE</p>
+              <ul class="footer-list-content">
+                <li><a href="">AMCARE</a></li>
+                <li><a href="">AMARON KONNEKT</a></li>
+                <li><a href="">Tips for Buying Battery</a></li>
+                <li><a href="">Battery Safety Guidelines</a></li>
+                <li><a href="">Terminology</a></li>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Battery Recycling</a></li>
+              </ul>
+            </section>
+            <section class="footer-list-child">
+              <p class="footer-list-head">AMARON EXPERIENCE</p>
+              <ul class="footer-list-content">
+                <li><a href="">About Amaron</a></li>
+                <li><a href="">Media</a></li>
+                <li><a href="">Ad Gallery</a></li>
+                <li><a href="">Fun Facts</a></li>
+                <li><a href="">AMARON Logo</a></li>
+                <li><a href="">Events</a></li>
+                <li class="sub-list"><a href="">PITSTOP LOCATOR</a></li>
+                <li><a href="">Amaron Pitstop</a></li>
+              </ul>
+            </section>
+            <section class="footer-list-child">
+              <p class="footer-list-head">OTHERS</p>
+              <ul class="footer-list-content">
+                <li><a href="">AMCARE</a></li>
+                <li><a href="">AMARON KONNEKT</a></li>
+                <li><a href="">Tips for Buying Battery</a></li>
+                <li><a href="">Battery Safety Guidelines</a></li>
+                <li><a href="">Terminology</a></li>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Battery Recycling</a></li>
+              </ul>
+            </section>
+          </section>
+        </section>
+        <section class="footer-bottom">
+          <p class="footer-bottom-text">
+            ©2022 AMARON Batteries AMARON KONNEKT
+          </p>
+        </section>
+      </footer>
+    </main>
+    <script src="./js/jquery/jquery.min.js"></script>
+    <script src="./js/jquery-validation/jquery.validate.min.js"></script>
+    <script src="./js/jquery-validation/additional-methods.min.js"></script>
+    <script src="./js/jquery-ui/jquery-ui.min.js"></script>
+    <script src="./js/contact.js"></script>
+  </body>
+</html>
